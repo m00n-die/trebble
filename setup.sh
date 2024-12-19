@@ -16,6 +16,16 @@ source .venv/bin/activate # activate the virtual environment. Run "deactivate" t
 
 python3 -m pip install django # install the latest stable version of Django
 
-django-admin startproject trebble . # initializes the project with name "trebble". Note the "." at the end
+# django-admin startproject trebble . # initializes the project with name "trebble". Note the "." at the end
 
-python3 manage.py startapp core # initializes a Django app, where the web application will actually be built
+# python3 manage.py startapp core # initializes a Django app, where the web application will actually be built
+
+
+# Next Steps
+# Add "core" to INSTALLED_APPS in trebble/settings.py
+# "core.apps.CoreConfig",
+# Make a 'templates' directory on the same level as core
+# Add ""DIRS": [BASE_DIR / "templates"]," to trebble/settings.py so Django knows where  to look for the templates
+# Migrate database
+# Create database models in /core/models.py
+# Register models in /core/admin.py
