@@ -7,4 +7,4 @@ Using the Spotify API, data is collected on a given playlist. This data is then 
 # Developers
 The web application is being built and maitained by;
 - Reginald Amuzu (@m00n-die)
-- Donald Fifonsi (@FifonsiDonald)
+- Donald  Fifonsi (@FifonsiDonald)
